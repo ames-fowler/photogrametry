@@ -57,3 +57,6 @@ to_move <- to_move %>%
 # Move the Files------------------
 #to_move <- to_move[1:3,]
 map2(.x =to_move$fullnames, .y =to_move$out_name, .f=~ file.copy(from = .x, to = .y, copy.date = TRUE ))
+
+
+# fuck this
